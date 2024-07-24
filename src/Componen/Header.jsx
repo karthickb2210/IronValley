@@ -1,17 +1,14 @@
 import React from "react";
-
-import Nav from "./Nav";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
-    <div className="text-white  h-[100vh]">
-      {/* Head swction */}
+    <>
+    <div className="text-white  h-[100vh] relative">
+     <Navbar />
       <div className="">
-
-     
-     <Nav />
-
-      {/* Hero section */}
+      {/* <Nav /> */}
+    
       <div className="2xl:my-36">
         <div className=" justify-center items-center ">
           <div className="flex justify-between ">
@@ -44,6 +41,7 @@ function Header() {
 
             {/* Image */}
             <div className="mx-44 flex justify-center items-center">
+            
             <img src="rnb.gif" alt="image" />
               {/* <img src='https://t3.ftcdn.net/jpg/02/98/16/12/240_F_298161284_WfcxrGOVJNXX0Gnd6t38BDYjMCZVqwzD.jpg'/> */}
               {/* <video autoPlay muted loop>
@@ -55,6 +53,7 @@ function Header() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
