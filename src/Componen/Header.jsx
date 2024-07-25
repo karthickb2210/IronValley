@@ -15,9 +15,9 @@ function Header() {
             {/* Text */}
             <div className="mx-8 my-12">
               <div className="text-6xl font-bold flex items-center ">
-                Iron Valley Solutions
+                IronValley Solutions
               </div>
-              <div className="text-md w-[100vh] my-8">
+              <div className="text-md w-[100vh] my-8  text-justify">
                 We are a 6-year-old Startup recognized by DPIIT (Department for
                 Promotion of Industry and Internal Trade, India). As an Agile
                 Engineering and Procurement Company we render various services

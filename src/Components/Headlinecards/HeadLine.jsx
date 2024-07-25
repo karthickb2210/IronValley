@@ -31,7 +31,9 @@ function HeadLine() {
             </div>
             <div class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
               <div class="absolute -z-10 left-0 w-64 h-28 opacity-0 bg-black duration-500 group-hover:opacity-50 group-hover:bg-black"></div>
-              <span class="text-xl font-bold">5+ Years In Service</span>
+              <span class="text-xl font-bold">DPIIT
+RECOGNIZED
+STARTUP</span>
               <p class="group-hover:opacity-100 w-56 duration-500 opacity-0">
                 We are in the industry for more tha 5 years
               </p>

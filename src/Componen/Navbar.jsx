@@ -2,7 +2,17 @@ import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from "../assets/logo iv.png";
 import "./nav.css"
+
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+const handleMouseEnter = () => {
+  setIsOpen(true);
+};
+
+const handleMouseLeave = () => {
+  setIsOpen(false);
+};
   // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
 
@@ -14,9 +24,9 @@ const Navbar = () => {
   // Array containing navigation items
   const navItems = [
     { id: 1, text: 'Home' },
-    { id: 2, text: 'Product' },
-    { id: 3, text: 'Resources' },
-    { id: 4, text: 'About' },
+    { id: 2, text: 'Products' },
+    { id: 3, text: 'Services' },
+    { id: 4, text: 'Company' },
     { id: 5, text: 'Contact' },
   ];
 
@@ -32,7 +42,37 @@ const Navbar = () => {
             key={item.id}
             className='p-2  m-2 menu'
           >
-          <a href='#' className='z-[20]'>{item.text}</a>
+          { 
+            item.id===2 &&  
+            <div className="relative inline-block text-left" onMouseEnter={handleMouseEnter} >
+      <div className="flex items-center cursor-pointer">
+        <span>{item.text}</span>
+        <svg
+          className={`w-5 h-5 ml-2 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </div>
+      {isOpen && (
+        <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-black ring-1 ring-black ring-opacity-5" onMouseLeave={handleMouseLeave}>
+          <div className="py-1">
+            <a href="#" className="block menu px-6 py-2 text-md text-gray-100 ">Envita</a>
+            <a href="#" className="block menu px-6 py-2 text-md text-gray-100  ">Valves</a>
+           
+          </div>
+        </div>
+      )}
+    </div>
+            
+          }{
+            item.id!=2 &&  <a href='#' className=''>{item.text}</a>
+          }
+         
+         
            
           </li>
         ))}
