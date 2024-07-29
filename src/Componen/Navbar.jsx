@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from "../assets/logo iv.png";
 import "./nav.css"
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,6 +43,9 @@ const handleMouseLeave = () => {
             key={item.id}
             className='p-2  m-2 menu'
           >
+          {
+            item.id===1 && <Link to={`/`}><p>{item.text}</p></Link>
+          }
           { 
             item.id===2 &&  
             <div className="relative inline-block text-left" onMouseEnter={handleMouseEnter} >
@@ -60,8 +64,8 @@ const handleMouseLeave = () => {
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-black ring-1 ring-black ring-opacity-5" onMouseLeave={handleMouseLeave}>
           <div className="py-1">
-            <a href="#" className="block menu px-6 py-2 text-md text-gray-100 ">Envita</a>
-            <a href="#" className="block menu px-6 py-2 text-md text-gray-100  ">Valves</a>
+            <a href="#" className="block menu px-6 py-2 text-sm text-gray-100 ">Envita</a>
+            <a href="#" className="block menu px-6 py-2 text-sm text-gray-100  ">Cesare bonetti</a>
            
           </div>
         </div>
@@ -69,7 +73,13 @@ const handleMouseLeave = () => {
     </div>
             
           }{
-            item.id!=2 &&  <a href='#' className=''>{item.text}</a>
+            item.id===3 && <Link to={`/services`}><p>{item.text}</p></Link>
+             }
+             {
+              item.id===5 && <Link to={`/contact`}><p>{item.text}</p></Link>
+             }
+             {
+            item.id!=3 && item.id!=1 && item.id!=2 && item.id!=5 &&  <p href='#' className=''>{item.text}</p>
           }
          
          

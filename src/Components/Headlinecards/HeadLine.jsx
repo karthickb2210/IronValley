@@ -5,7 +5,7 @@ function HeadLine() {
   return (
     <>
       <Header />
-      <div className="flex flex-row gap-16 justify-center py-24 mt-32">
+      <div className="flex flex-row gap-16 justify-center py-24 mt-32 ">
         <div class="relative group cursor-pointer overflow-hidden duration-500 w-64 h-80 bg-slate-900  text-gray-50 p-5">
           <div class=" bg-current">
             <div class="group-hover:scale-110 w-full bg-current h-60 bg-black duration-500">
