@@ -5,10 +5,10 @@ function Ourservices() {
 <>
    
 
-    <div class="main">
+    <div class="main ">
     <h1 class="text-white text-3xl md:text-4xl xl:text-5xl font-semibold max-w-2xl mx-8 leading-snug">Our Services</h1>
 <div class="container">
-  <div class="cardd">
+  <div class="cardd ">
     <div class="box">
       <div class="content">
         <h3>PROCUREMENT SERVICES</h3>

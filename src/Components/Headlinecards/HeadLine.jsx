@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "./logo.jpg";
+import logo from "./iv.jpg";
+import sixyear from "./sixyear.png"
 import Header from "../../Componen/Header";
 function HeadLine() {
   return (
@@ -8,7 +9,7 @@ function HeadLine() {
       <div className="flex flex-row gap-16 justify-center py-24 mt-32 ">
         <div class="relative group cursor-pointer overflow-hidden duration-500 w-64 h-80 bg-slate-900  text-gray-50 p-5">
           <div class=" bg-current">
-            <div class="group-hover:scale-110 w-full bg-current h-60 bg-black duration-500">
+            <div class="group-hover:scale-110 w-full h-60 bg-black duration-500">
               <img src={logo} alt="image" />
             </div>
             <div class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12">
@@ -25,7 +26,7 @@ function HeadLine() {
           <div class="">
             <div class="group-hover:scale-110 w-full bg-current h-60 bg-black duration-500">
               <img
-                src="https://www.ivsourcing.com/images/5%20years.PNG"
+                src={sixyear}
                 alt="image"
               />
             </div>

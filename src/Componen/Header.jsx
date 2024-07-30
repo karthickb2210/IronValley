@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-
+import {motion} from "framer-motion"
+import { fadeIn  } from "../Components/EnVita/variants"; 
 function Header() {
   return (
     <>
@@ -14,10 +15,10 @@ function Header() {
           <div className="flex justify-between ">
             {/* Text */}
             <div className="mx-8 my-12">
-              <div className="text-6xl font-bold flex items-center ">
+              <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="text-6xl ml-12 font-bold flex items-center ">
                 IronValley Solutions
-              </div>
-              <div className="text-md w-[100vh] my-8  text-justify">
+              </motion.div>
+              <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="text-md w-[100vh] my-8 ml-12 text-justify">
                 We are a 6-year-old Startup recognized by DPIIT (Department for
                 Promotion of Industry and Internal Trade, India). As an Agile
                 Engineering and Procurement Company we render various services
@@ -32,7 +33,7 @@ function Header() {
                 services pertinent to Oil and gas, petrochemical and other types
                 of process industries. We also supply manpower and our budding
                 business vertical is Controlled Environment Agriculture
-              </div>
+              </motion.div>
               
               {/* <div>
               Being a Women Led organization, we strive to gather the women talents and enhance ourselves along with their growth !

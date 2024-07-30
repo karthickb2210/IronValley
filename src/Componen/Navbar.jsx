@@ -3,6 +3,8 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from "../assets/logo iv.png";
 import "./nav.css"
 import { Link } from 'react-router-dom';
+import {motion} from 'framer-motion'
+import { fadeIn } from '../Components/EnVita/variants';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +34,9 @@ const handleMouseLeave = () => {
   ];
 
   return (
-    <div className='bg-black  bg-transparent flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+    <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  className='bg-black  bg-transparent flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
       {/* Logo */}
-      <img src={logo} className="h-10" />
+      <img src={logo} className="ml-12 h-10" />
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
@@ -64,7 +66,9 @@ const handleMouseLeave = () => {
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-black ring-1 ring-black ring-opacity-5" onMouseLeave={handleMouseLeave}>
           <div className="py-1">
+          <Link to={`/envita`}>
             <a href="#" className="block menu px-6 py-2 text-sm text-gray-100 ">Envita</a>
+            </Link>
             <a href="#" className="block menu px-6 py-2 text-sm text-gray-100  ">Cesare bonetti</a>
            
           </div>
@@ -116,7 +120,7 @@ const handleMouseLeave = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </motion.div>
   );
 };
 

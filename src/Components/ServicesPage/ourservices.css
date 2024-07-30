@@ -4,8 +4,28 @@ main {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.cardd{
+  overflow: hidden;
+}
+.cardd::before{
+  content: '';
+  position: absolute;
+  width: 100px;
+  background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+  height: 130%;
+  animation: rotBGimg 3s linear infinite;
+  transition: all 0.2s linear;
+}
+.cardd::after {
+  content: '';
+  position: absolute;
+  background: #07182E;
+  ;
+  inset: 5px;
+  border-radius: 15px;
+} 
 .main  {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +33,15 @@ main {
   min-height: 100vh;
  
 }
+@keyframes rotBGimg {
+  from {
+    transform: rotate(90deg);
+  }
 
+  to {
+    transform: rotate(270deg);
+  }
+}
 .container {
   display: flex;
   justify-content: center;
@@ -62,9 +90,9 @@ main {
   transition: 0.5s;
 }
 
- .container .cardd .box:hover {
+ /* .container .cardd .box:hover {
   transform: translateY(-50px);
-}
+} */
 
  .container .cardd .box:before {
   content: "";
@@ -81,7 +109,9 @@ main {
   text-align: center;
 }
 
-
+.content{
+  z-index: 1;
+}
 .container .cardd .box .content h3 {
   font-size: 1.8rem;
   color: #fff;
