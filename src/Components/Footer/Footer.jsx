@@ -1,8 +1,8 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
-    <div className=" mt-16">
+    <div className="pt-16">
     <footer className="bg-neutral-100 text-center text-neutral-600  dark:bg-slate-900 dark:text-neutral-200 lg:text-left relative">
       {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
       <div className="mx-6 py-10 text-center md:text-left">
@@ -33,13 +33,16 @@ export default function Footer() {
               Products
             </h6>
             <p className="mb-4">
+              <Link to={`/cesarebonetti`}>
               <a href="#" className="text-neutral-600 dark:text-neutral-200">
-                Valves
+                Cesare Bonetti
               </a>
+              </Link>
             </p>
             <p className="mb-4">
+            <Link to={`/envita`}>
               <a href="#" className="text-neutral-600 dark:text-neutral-200">Envita</a>
-            </p>
+              </Link> </p>
           </div>
 
           <div className=" flex justify-center items-center">
@@ -90,15 +93,7 @@ export default function Footer() {
                 + 91 95000 04963
               </p>
               <div className=" ">
-                <iframe
-                className=" flex justify-center items-center"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15545.993325566904!2d80.25075242526869!3d13.067572898297195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267f58b256f7f%3A0x140b67e04506cd3b!2sIronValley%20Solutions%20LLP%20%7C%20IRONVALLEY%20SOLUTIONS%20LLP%20%7C%20Ironvalley%20Solutions%20Chennai!5e0!3m2!1sen!2sin!4v1721731748399!5m2!1sen!2sin"
-                  width="300"
-                  height="200"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3611241697295!2d80.25133047359101!3d13.076284612577505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267005a8caeef%3A0x7a0e12fed36aba0b!2sIRONVALLEY%20SOLUTIONS%20LLP!5e0!3m2!1sen!2sin!4v1722391379821!5m2!1sen!2sin" width="300" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
@@ -150,15 +145,7 @@ export default function Footer() {
               +1 302 566 1431
             </p>
             <div className="">
-              <iframe
-                className="flex justify-center items-center"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15545.993325566904!2d80.25075242526869!3d13.067572898297195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267f58b256f7f%3A0x140b67e04506cd3b!2sIronValley%20Solutions%20LLP%20%7C%20IRONVALLEY%20SOLUTIONS%20LLP%20%7C%20Ironvalley%20Solutions%20Chennai!5e0!3m2!1sen!2sin!4v1721731748399!5m2!1sen!2sin"
-                width="300"
-                height="200"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.194111118095!2d-75.67997482531196!3d39.66784790088039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c700d192f00001%3A0xdeab2f34bbb2a679!2s254%20Chapman%20Rd%20ste%20208%2C%20Newark%2C%20DE%2019702%2C%20USA!5e0!3m2!1sen!2sin!4v1722391515189!5m2!1sen!2sin" width="300" height="200"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>

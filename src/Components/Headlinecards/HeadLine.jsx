@@ -36,7 +36,7 @@ function HeadLine() {
 RECOGNIZED
 STARTUP</span>
               <p class="group-hover:opacity-100 w-56 duration-500 opacity-0">
-                We are in the industry for more tha 5 years
+                We are in the industry for more than 6 years
               </p>
             </div>
           </div>
