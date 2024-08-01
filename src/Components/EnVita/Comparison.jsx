@@ -43,7 +43,7 @@ function Comparison() {
                   </th>
                 </tr>
               </thead>
-              <tbody className="space-y-6 text-center font-medium text-xl divide-y dark:divide-gray-300">
+              <tbody className="space-y-6 text-center font-medium text-xl divide-y divide-gray-300">
                 <tr>
                   <th scope="row" className="text-left">
                     <h3 className="py-6 ">Price </h3>
@@ -93,7 +93,7 @@ function Comparison() {
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-label="Not included in Free plan"
-                      className="w-5 h-5 mx-auto dark:text-gray-400"
+                      className="w-5 h-5 mx-auto text-gray-400"
                     >
                       <path
                         fillRule="evenodd"
@@ -108,7 +108,7 @@ function Comparison() {
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-label="Not included in Free plan"
-                      className="w-5 h-5 mx-auto dark:text-gray-400"
+                      className="w-5 h-5 mx-auto text-gray-400"
                     >
                       <path
                         fillRule="evenodd"
@@ -131,7 +131,7 @@ function Comparison() {
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-label="Not included in Free plan"
-                      className="w-5 h-5 mx-auto dark:text-gray-400"
+                      className="w-5 h-5 mx-auto :text-gray-400"
                     >
                       <path
                         fillRule="evenodd"
@@ -146,7 +146,7 @@ function Comparison() {
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-label="Not included in Free plan"
-                      className="w-5 h-5 mx-auto dark:text-gray-400"
+                      className="w-5 h-5 mx-auto text-gray-400"
                     >
                       <path
                         fillRule="evenodd"
@@ -161,7 +161,7 @@ function Comparison() {
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-label="Not included in Free plan"
-                      className="w-5 h-5 mx-auto dark:text-gray-400"
+                      className="w-5 h-5 mx-auto text-gray-400"
                     >
                       <path
                         fillRule="evenodd"
@@ -176,7 +176,7 @@ function Comparison() {
                       viewBox="0 0 20 20"
                       fill="currentColor"
                       aria-label="Included in Premium plan"
-                      className="w-5 h-5 mx-auto dark:text-violet-600"
+                      className="w-5 h-5 mx-auto text-violet-600"
                     >
                       <path
                         fillRule="evenodd"

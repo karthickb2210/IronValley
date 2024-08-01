@@ -22,7 +22,7 @@ function Testienvita() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
-                className="dark:text-white"
+                className="text-white"
               >
                 We prioritize our customer feedbacks{" "}
               </motion.p>
@@ -65,7 +65,7 @@ function Testienvita() {
                       <img
                         src="https://t3.ftcdn.net/jpg/03/46/83/96/240_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg"
                         alt=""
-                        className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                        className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500"
                       />
                       <div>
                         <p className="text-lg font-semibold">Sivaramkrishnan</p>
