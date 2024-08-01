@@ -93,7 +93,7 @@ export default function Footer() {
                 + 91 95000 04963
               </p>
               <div className=" ">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3611241697295!2d80.25133047359101!3d13.076284612577505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267005a8caeef%3A0x7a0e12fed36aba0b!2sIRONVALLEY%20SOLUTIONS%20LLP!5e0!3m2!1sen!2sin!4v1722391379821!5m2!1sen!2sin" width="300" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3611241697295!2d80.25133047359101!3d13.076284612577505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267005a8caeef%3A0x7a0e12fed36aba0b!2sIRONVALLEY%20SOLUTIONS%20LLP!5e0!3m2!1sen!2sin!4v1722391379821!5m2!1sen!2sin" width="300" height="200" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function Footer() {
               +1 302 566 1431
             </p>
             <div className="">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.194111118095!2d-75.67997482531196!3d39.66784790088039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c700d192f00001%3A0xdeab2f34bbb2a679!2s254%20Chapman%20Rd%20ste%20208%2C%20Newark%2C%20DE%2019702%2C%20USA!5e0!3m2!1sen!2sin!4v1722391515189!5m2!1sen!2sin" width="300" height="200"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.194111118095!2d-75.67997482531196!3d39.66784790088039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c700d192f00001%3A0xdeab2f34bbb2a679!2s254%20Chapman%20Rd%20ste%20208%2C%20Newark%2C%20DE%2019702%2C%20USA!5e0!3m2!1sen!2sin!4v1722391515189!5m2!1sen!2sin" width="300" height="200"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
