@@ -17,7 +17,7 @@ function OfferedServices() {
       <div class="circle">
       </div>
       <div class="relative lg:pr-52 ">
-        <h2 class="head2 px-2 py-2 capitalize text-white mb-4 text-2xl xl:text-3xl">Optimal <br /> Solution</h2>
+        <h2 class="head2 px-2 py-2 capitalize text-white mb-4 text-2xl xl:text-3xl">Optimal <br /> Solutions</h2>
         <p class="text-white px-2 py-2 ">Conducting thorough market and SWOT analyses helps identify opportunities and threats, while stakeholder input ensures alignment with broader organizational needs.</p>
       </div>
       <div class="icon"></div>
