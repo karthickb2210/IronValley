@@ -41,9 +41,8 @@ function Header() {
             </div>
 
             {/* Image */}
-            <div className="mx-12 ml-6 opacity-60 sm:w-1/4 xl:w-full  rounded-xl flex justify-center items-center">
-            
-            <img src="piss.gif" className=" rounded-xl"  alt="image" />
+            <div className="mx-28 flex justify-center items-center">
+            <img src="rnb.gif" className=" rounded-xl"  alt="image" />
               {/* <img src='https://t3.ftcdn.net/jpg/02/98/16/12/240_F_298161284_WfcxrGOVJNXX0Gnd6t38BDYjMCZVqwzD.jpg'/> */}
               {/* <video autoPlay muted loop>
                 <source src="./pis.mp4" width={1000} type="video/webm" />
