@@ -69,8 +69,9 @@ const handleMouseLeave = () => {
           <Link to={`/envita`}>
             <a href="#" className="block menu px-6 py-2 text-sm text-gray-100 ">Envita</a>
             </Link>
+            <Link to={`/cesarebonetti`}>
             <a href="#" className="block menu px-6 py-2 text-sm text-gray-100  ">Cesare bonetti</a>
-           
+            </Link>
           </div>
         </div>
       )}

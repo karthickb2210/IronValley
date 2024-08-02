@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="pt-16">
-    <footer className="text-center bg-slate-900 text-neutral-200 lg:text-left relative">
+    <footer className="text-center bg-slate-950 text-neutral-200 lg:text-left relative">
       {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid-1 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
