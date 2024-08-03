@@ -10,7 +10,7 @@ function SingleProduct({prop}) {
               width="320"
               height="300"
               alt=" random imgee"
-              class=" relative object-center transition hover:scale-105 hover:-translate-y-12 duration-800 rounded-lg shadow-md"
+              class=" relative object-center transition hover:scale-105 hover:-translate-y-12 duration-900 rounded-lg shadow-md"
             />
 
             <div class="relative px-4 -mt-16   ">

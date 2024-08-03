@@ -152,7 +152,7 @@ function Valves() {
     </svg>
   </span>
   <h1 class="text-white text-3xl md:text-4xl xl:text-5xl font-semibold max-w-3xl mx-auto mb-16 leading-snug">High Pressure Valves & Guages</h1> */}
-    <h1 className=" text-3xl text-white my-16 text-center">Level Gauges</h1>
+    <h1 className=" text-4xl text-white my-16 text-center">Level Gauges</h1>
       <div className="grid gap-12  sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2">
        
         
@@ -160,7 +160,7 @@ function Valves() {
         <SingleProduct prop={p2} />
         <SingleProduct prop={p3} />
         </div>
-        <h1 className=" text-3xl text-white my-16 text-center">Level Indicators</h1>
+        <h1 className=" text-4xl text-white my-16 text-center">Level Indicators</h1>
         <div className="grid gap-12  sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2">
         
         <SingleProduct prop={p4} />
@@ -168,28 +168,28 @@ function Valves() {
         <SingleProduct prop={p6} />
         </div>
 
-        <h1 className=" text-3xl text-white my-16 text-center">Ball Valves</h1>
+        <h1 className=" text-4xl text-white my-16 text-center">Ball Valves</h1>
         <div className="grid gap-12  sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2">
         
         <SingleProduct prop={b1} />
         <SingleProduct prop={b2} />
 
         </div>
-        <h1 className=" text-3xl text-white my-16 text-center">Rotary Valves</h1>
+        <h1 className=" text-4xl text-white my-16 text-center">Rotary Valves</h1>
         
         <div className="grid gap-12  sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2">
         <div className=" col-start-2">
         <SingleProduct prop={rv1} />
         </div>
         </div>
-        <h1 className=" text-3xl text-white my-16 text-center">Piston Valves</h1>
+        <h1 className=" text-4xl text-white my-16 text-center">Piston Valves</h1>
         <div className="grid gap-12  sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2">
         <SingleProduct prop={pv1} />
         <SingleProduct prop={pv2} />
         {/* <SingleProduct prop={pv3} /> */}
         </div>
 
-        <h1 className=" text-3xl text-white my-16 text-center">Valves Series</h1>
+        <h1 className=" text-4xl text-white my-16 text-center">Valves Series</h1>
         <div className="grid gap-12  sm:grid-cols-1 xl:grid-cols-3 md:grid-cols-2">
         <SingleProduct prop={vs1} />
         <SingleProduct prop={vs2} />
