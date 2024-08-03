@@ -66,7 +66,7 @@ function Herosection() {
             <footer class="flex items-center mt-4">
               <div>
                 <span class="text-gray-700"> - </span>
-                <span class="text-gray-500">exclusively imported & marketed in India by Iron Valley Solutions</span>
+                <span class="text-gray-500"> distributed by Iron Valley Solutions</span>
               </div>
             </footer>
           </motion.div>
