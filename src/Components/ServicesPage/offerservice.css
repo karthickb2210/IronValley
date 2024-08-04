@@ -73,14 +73,14 @@
   clip-path: circle(110vw at 100% 100%);
 }
 .card:hover h2{
-  
+  transition-delay: 120ms;
   opacity: 80%;
   border-radius: 10px;
   background-color: black;
     color: white;
 }
 .card:hover p {
-  
+  transition-delay: 120ms;
   opacity: 80%;
   border-radius: 10px;
   background-color: black;

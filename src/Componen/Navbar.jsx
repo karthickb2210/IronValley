@@ -84,7 +84,7 @@ const handleMouseLeave = () => {
               item.id===5 && <Link to={`/contact`}><p>{item.text}</p></Link>
              }
              {
-            item.id!=3 && item.id!=1 && item.id!=2 && item.id!=5 &&  <p href='#' className=''>{item.text}</p>
+            item.id!=3 && item.id!=1 && item.id!=2 && item.id!=5 &&  <Link to={`/company`}><p>{item.text}</p></Link>
           }
          
          

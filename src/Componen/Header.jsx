@@ -5,7 +5,7 @@ import { fadeIn  } from "../Components/EnVita/variants";
 function Header() {
   return (
     <>
-    <div className="text-white  h-[100vh] relative">
+    <div className="text-white  relative">
      <Navbar />
       <div className="">
       {/* <Nav /> */}
@@ -18,7 +18,7 @@ function Header() {
               <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="text-6xl ml-12 font-bold flex items-center ">
                 IronValley Solutions
               </motion.div>
-              <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="text-md w-[100vh] my-8 ml-12 text-justify">
+              <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="text-md max-w-[800px] my-8 ml-12 text-justify">
                 We are a 6-year-old Startup recognized by DPIIT (Department for
                 Promotion of Industry and Internal Trade, India). As an Agile
                 Engineering and Procurement Company we render various services
@@ -41,8 +41,8 @@ function Header() {
             </div>
 
             {/* Image */}
-            <div className=" opacity-70 mx-28 flex justify-center items-center">
-            <img src="rnb.gif" className=" rounded-xl"  alt="image" />
+            <div className=" mx-28  flex justify-center items-center">
+            <img src="rnb.gif" className=" opacity-65 rounded-xl"  alt="image" />
               {/* <img src='https://t3.ftcdn.net/jpg/02/98/16/12/240_F_298161284_WfcxrGOVJNXX0Gnd6t38BDYjMCZVqwzD.jpg'/> */}
               {/* <video autoPlay muted loop>
                 <source src="./pis.mp4" width={1000} type="video/webm" />

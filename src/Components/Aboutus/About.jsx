@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="flex justify-center items-center mt-36 mb-36">
       <div className=" flex-row space-y-[170px]">
-        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-gray-900 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
+        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-zinc-700 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
           <div
             alt="image here"
             class=" max-w-[400px] max-h-[200px]  absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-10 -right-10 w-1/2 h-1/2 rounded-lg bg-gray-800"
@@ -30,12 +30,12 @@ function About() {
               erection, commissioning, testing & maintenance services .
             </p>
           </div>
-          <button class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6">
+          {/* <button class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6">
             Explore
-          </button>
+          </button> */}
         </div>
 
-        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-gray-900 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
+        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-zinc-700 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
           <div
             alt="image here"
             class="  max-w-[400px] max-h-[200px]   absolute duration-700 shadow-md group-hover:-translate-x-4 group-hover:-translate-y-4 -bottom-10 -left-10 w-1/2 h-1/2 rounded-lg bg-gray-800"
@@ -62,7 +62,7 @@ function About() {
           </div>
         </div>
 
-        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-gray-900 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
+        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-zinc-700 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
           <div
             alt="image here"
             class=" max-w-[400px] max-h-[200px]   absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-10 -right-10 w-1/2 h-1/2 rounded-lg bg-gray-800"
@@ -81,11 +81,11 @@ function About() {
               Aspen Hysys) | CFD Analysis (ANSYS, FLUENT){" "}
             </p>
           </div>
-          <button class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6">
+          {/* <button class="hover:bg-gray-700 bg-gray-800 text-gray-100 mt-6 rounded p-2 px-6">
             Explore
-          </button>
+          </button> */}
         </div>
-        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-gray-900 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
+        <div class="group flex flex-col justify-start items-start gap-2 mx-32 h-56 duration-500 relative rounded-lg p-4 bg-zinc-700 hover:-translate-y-2 hover:shadow-xl shadow-gray-800">
           <div
             alt="image here"
             className="  max-w-[400px] max-h-[200px]   absolute duration-700 shadow-md group-hover:-translate-y-4 group-hover:-translate-x-4 -bottom-10 -left-10 w-1/2 h-1/2 rounded-lg bg-gray-800"
