@@ -8,13 +8,13 @@ import kwaitoil from "./images/kwaitoil.png"
 import knpc from "./images/knpc.jpeg"
 import kipic from "./images/kipic.png"
 
-import dolphine from "./images/quatar/dolphinenergy.jpeg"
+import dolphine from "./images/quatar/dolphinenergy.png"
 import qchen from "./images/quatar/q chen.jpeg"
 import qsteel from "./images/quatar/qsteel.png"
 import quapco from "./images/quatar/quapco.jpeg"
-import rloc from "./images/quatar/rloc.jpeg"
+import rloc from "./images/quatar/rloc.png"
 
-import omandrydock from "./images/oman/omandrydock.jpeg"
+import omandrydock from "./images/oman/omandrydock.jpg"
 import omanoil from "./images/oman/omanoil.png"
 import orpic from "./images/oman/orpic.png"
 
@@ -141,7 +141,7 @@ function Company() {
             </Slider>
             </div>
             <div>
-            <h1 className=' text-white text-4xl text-center my-16'>Quatarian Brands</h1>
+            <h1 className=' text-white text-4xl text-center my-16'>Qatarian Brands</h1>
             <Slider {...settings4}>
                 <div className='max-w-40'><img className='rounded-xl'  src={dolphine} alt="Logo 1" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={qchen} alt="Logo 2" /></div>
