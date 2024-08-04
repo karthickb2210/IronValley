@@ -41,7 +41,7 @@ function Header() {
             </div>
 
             {/* Image */}
-            <div className=" mx-28  flex justify-center items-center">
+            <div className=" mx-28 flex justify-center items-center">
             <img src="rnb.gif" className=" opacity-65 rounded-xl"  alt="image" />
               {/* <img src='https://t3.ftcdn.net/jpg/02/98/16/12/240_F_298161284_WfcxrGOVJNXX0Gnd6t38BDYjMCZVqwzD.jpg'/> */}
               {/* <video autoPlay muted loop>

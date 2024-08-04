@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function Footer() {
   return (
-    <div className="pt-16">
-    <footer className="text-center bg-slate-950 text-neutral-200 lg:text-left relative">
+    <div className=" mt-16">
+    <footer className="text-center bg-black bg-opacity-30 text-neutral-200 lg:text-left relative">
       {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
       <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid-1 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid-1 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* <!-- TW Elements section --> */}
           <div className="">
             <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
@@ -112,8 +112,7 @@ export default function Footer() {
                 <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
               </svg>
               <p>
-                254, Chapman Road, Ste 209 Newark, De 19702, United States Of
-                America.
+                254, Chapman Road, Ste 209 Newark, De 19702, USA
               </p>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
@@ -144,7 +143,7 @@ export default function Footer() {
               +1 302 566 1431
             </p>
             <div className="">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.194111118095!2d-75.67997482531196!3d39.66784790088039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c700d192f00001%3A0xdeab2f34bbb2a679!2s254%20Chapman%20Rd%20ste%20208%2C%20Newark%2C%20DE%2019702%2C%20USA!5e0!3m2!1sen!2sin!4v1722391515189!5m2!1sen!2sin" width="300" height="200"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3071.194111118095!2d-75.67997482531196!3d39.66784790088039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c700d192f00001%3A0xdeab2f34bbb2a679!2s254%20Chapman%20Rd%20ste%20208%2C%20Newark%2C%20DE%2019702%2C%20USA!5e0!3m2!1sen!2sin!4v1722391515189!5m2!1sen!2sin" width="275" height="200"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
