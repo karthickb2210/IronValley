@@ -120,19 +120,19 @@ function Company() {
     };
   return (
     <div className=' mx-28'>
-    <h1 class=" text-4xl font-medium title-font text-center text-white mb-10">We provide our services to brands like 
+    <h1 class=" text-4xl font-medium title-font text-center text-white mb-10">We provide our services to clients like 
     </h1>
     <div className="customer-logos ">
-        <h1 className=' text-white text-4xl text-center my-16'>Indian Brands</h1>
+        <h1 className=' text-white text-4xl text-center my-16'>India</h1>
             <Slider className=' space-x-3' {...settingsIndia}>
                 <div className='max-w-40 max-h-32'><img className='rounded-xl'  src={bgr} alt="Logo 1" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={ind} alt="Logo 2" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={sugunafoods} alt="Logo 3" /></div>
-                <div className=' max-w-40'><img className='rounded-xl' src={ces} alt="Logo 4" /></div>
+                {/* <div className=' max-w-40'><img className='rounded-xl' src={ces} alt="Logo 4" /></div> */}
                 {/* Add more logos as needed */}
             </Slider>
             <div>
-            <h1 className=' text-white text-4xl text-center my-16'>Kwait Brands</h1>
+            <h1 className=' text-white text-4xl text-center my-16'>Kuwait</h1>
             <Slider {...settings3}>
                 <div className='max-w-40'><img className='rounded-xl'  src={kwaitoil} alt="Logo 1" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={kipic} alt="Logo 2" /></div>
@@ -141,7 +141,7 @@ function Company() {
             </Slider>
             </div>
             <div>
-            <h1 className=' text-white text-4xl text-center my-16'>Qatarian Brands</h1>
+            <h1 className=' text-white text-4xl text-center my-16'>Qatar</h1>
             <Slider {...settings4}>
                 <div className='max-w-40'><img className='rounded-xl'  src={dolphine} alt="Logo 1" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={qchen} alt="Logo 2" /></div>
@@ -152,7 +152,7 @@ function Company() {
             </Slider>
             </div>
             <div>
-            <h1 className=' text-white text-4xl text-center my-16'>Omanian Brands</h1>
+            <h1 className=' text-white text-4xl text-center my-16'>Oman</h1>
             <Slider {...settings3}>
                 <div className='max-w-40'><img className='rounded-xl'  src={omanoil} alt="Logo 1" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={omandrydock} alt="Logo 2" /></div>
