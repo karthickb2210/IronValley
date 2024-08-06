@@ -119,12 +119,12 @@ function Company() {
         ]
     };
   return (
-    <div className=' mx-28'>
+    <div className=' mx-16'>
     <h1 class=" text-4xl font-medium title-font text-center text-white mb-10">We provide our services to clients like 
     </h1>
     <div className="customer-logos ">
         <h1 className=' text-white text-4xl text-center my-16'>India</h1>
-            <Slider className=' space-x-3' {...settingsIndia}>
+            <Slider className=' flex ' {...settingsIndia}>
                 <div className='max-w-40 max-h-32'><img className='rounded-xl'  src={bgr} alt="Logo 1" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={ind} alt="Logo 2" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={sugunafoods} alt="Logo 3" /></div>

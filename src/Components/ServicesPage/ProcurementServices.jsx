@@ -25,7 +25,6 @@ import alvarado from "./Companylogo/26/alvarado.png"
 import amphenol from "./Companylogo/26/amphenol.png"
 import ashcroft from "./Companylogo/26/ashcroft.png"
 import carraro from "./Companylogo/26/carraro.png"
-import cooper from "./Companylogo/26/cooper.jpg"
 import crouzet from "./Companylogo/26/crouzet.png"
 import dpv from "./Companylogo/26/dpv.png"
 import euromotori from "./Companylogo/26/euromotori.png"
@@ -52,13 +51,13 @@ export default function ProcurementServices() {
     <div className='mx-12'>
       <div className="p-8 bg-black text-white relative">
       <h1 className="text-4xl font-bold mb-8 text-center">Procurement Services</h1>
-      <div className="max-w-3xl  mx-auto mb-8 text-balance">
-        <p className="text-lg mb-4">
-          Our procurement services are designed to ensure that you receive the best products and services at the most competitive prices. We work with a diverse range of suppliers and vendors to meet your unique needs, ensuring quality and efficiency at every step.
-        
-          From strategic sourcing to contract management, we provide comprehensive solutions that streamline your procurement processes. Our team of experts leverages industry knowledge and advanced technologies to deliver exceptional value and drive sustainable growth.
-        
-          We are committed to building strong, long-term relationships with our clients, providing personalized service and tailored solutions that align with your business objectives. Trust us to handle your procurement needs with professionalism and excellence.
+      <div className="max-w-3xl  mx-auto mb-8 ">
+        <p className="text-lg mb-4 text-justify">
+       &rarr;   Our procurement services are designed to ensure that you receive the best products and services at the most competitive prices. We work with a diverse range of suppliers and vendors to meet your unique needs, ensuring quality and efficiency at every step.
+        <br/><br/>
+       &rarr;   From strategic sourcing to contract management, we provide comprehensive solutions that streamline your procurement processes. Our team of experts leverages industry knowledge and advanced technologies to deliver exceptional value and drive sustainable growth.
+        <br/><br/>
+       &rarr;   We are committed to building strong, long-term relationships with our clients, providing personalized service and tailored solutions that align with your business objectives. Trust us to handle your procurement needs with professionalism and excellence.
         </p>
       </div>
       <div className="text-center">
@@ -91,7 +90,6 @@ export default function ProcurementServices() {
           <img src={amphenol} alt="Client 3" className="max-w-30 max-h-30 rounded-xl object-cover transition-transform duration-300 hover:scale-110 bg-white"/>
           <img src={ashcroft} alt="Client 3" className="max-w-30 max-h-30 rounded-xl object-cover transition-transform duration-300 hover:scale-110 bg-white"/>
           <img src={carraro} alt="Client 3" className="max-w-30 max-h-30 rounded-xl object-cover transition-transform duration-300 hover:scale-110 bg-white"/>
-          <img src={cooper} alt="Client 3" className="max-w-30 max-h-30 rounded-xl object-cover transition-transform duration-300 hover:scale-110 bg-white"/>
           <img src={crouzet} alt="Client 3" className="max-w-30 max-h-30 rounded-xl object-cover transition-transform duration-300 hover:scale-110 bg-white"/>
           <img src={dpv} alt="Client 3" className="max-w-30 max-h-30 rounded-xl object-cover transition-transform duration-300 hover:scale-110 bg-white"/>
           <img src={euromotori} alt="Client 3" className="max-w-30 max-h-30 rounded-xl object-cover transition-transform duration-300 hover:scale-110 bg-white"/>

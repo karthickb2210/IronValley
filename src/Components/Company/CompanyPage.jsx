@@ -4,6 +4,7 @@ import Company from './Company'
 import Footer from '../Footer/Footer'
 import Whoarewe from './Whoarewe'
 import Whychooseus from './Whychooseus'
+import Brands from './Brands'
 
 function CompanyPage() {
   return (
@@ -11,7 +12,9 @@ function CompanyPage() {
       <Navbar />
       <Whoarewe />
       <Whychooseus />
+      <Brands />
       <Company />
+      
       <Footer />
     </div>
   )
