@@ -4,6 +4,7 @@ import OfferedServices from './OfferedServices'
 import Footer from '../Footer/Footer'
 import Ourservices from './Ourservices'
 import ServiceCard from './ServiceCard'
+import ProcurementServices from './ProcurementServices'
 
 function Services() {
   return (
@@ -11,7 +12,9 @@ function Services() {
       <Navbar />
       <Ourservices />
       {/* <ServiceCard /> */}
+      <ProcurementServices />
       <OfferedServices />
+
       <Footer />
     </div>
   )
