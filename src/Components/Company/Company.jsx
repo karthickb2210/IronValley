@@ -35,13 +35,13 @@ function Company() {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 4
+                    slidesToShow: 2
                 }
             },
             {
                 breakpoint: 520,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 2
                 }
             }
         ]
@@ -59,13 +59,13 @@ function Company() {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 4
+                    slidesToShow: 2
                 }
             },
             {
                 breakpoint: 520,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 1
                 }
             }
         ]
@@ -107,13 +107,13 @@ function Company() {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 4
+                    slidesToShow: 3
                 }
             },
             {
                 breakpoint: 520,
                 settings: {
-                    slidesToShow: 3
+                    slidesToShow: 2
                 }
             }
         ]
@@ -124,7 +124,7 @@ function Company() {
     </h1>
     <div className="customer-logos ">
         <h1 className=' text-white text-4xl text-center my-16'>India</h1>
-            <Slider className=' flex ' {...settingsIndia}>
+            <Slider  {...settingsIndia}>
                 <div className='max-w-40 max-h-32'><img className='rounded-xl'  src={bgr} alt="Logo 1" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={ind} alt="Logo 2" /></div>
                 <div className=' max-w-40'><img className='rounded-xl' src={sugunafoods} alt="Logo 3" /></div>
