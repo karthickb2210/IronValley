@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import emailjs from "emailjs-com"
 export default function Contactform() {
   const [val, setVal] = useState({
     fname: "",
@@ -9,14 +9,36 @@ export default function Contactform() {
     msg: "",
   });
 
+  const serviceid = "service_lp0fl5d";
+  const templateid = "template_2s9acvf";
+  const userid = "65jBapvXd7s4VpsWj";
+  const handleSubmit =()=>{
+    if(val.fname.length==0){
+      alert("Enter first name")
+      return
+    }
+    if(val.mail.length==0){
+      alert("Enter the email id")
+      return
+    }
+    if(val.num.length==0){
+      alert("Enter your mobile number")
+      return
+    }
+    emailjs.send(serviceid,templateid,val,userid).then((res)=>{
+      alert("Your message has been posted. Our team will connect with you within 3 to 4 business days" )
+      window.location.reload()
+    }).catch((er)=>{
+      console.log(er)
+    })
+  }
+
+
   let { fname, lname, mail, num, msg } = val;
   const onInputChange = (e) => {
     setVal({ ...val, [e.target.name]: e.target.value });
   };
-  const handleSubmit = () => {
-    alert("Form Submitted Succesfully")
-    console.log(val);
-  };
+ 
   return (
     <div class=" relative flex justify-center my-24 items-center ">
       <div class="container mx-auto my-4 px-4 lg:px-20">
