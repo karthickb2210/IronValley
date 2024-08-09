@@ -117,7 +117,19 @@ const handleMouseLeave = () => {
             key={item.id}
             className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
           >
-            {item.text}
+          {
+            item.id===1 && <Link to={`/`}><p>{item.text}</p></Link>
+          }
+          {
+            item.id===3 && <Link to={`/services`}><p>{item.text}</p></Link>
+             }
+             {
+              item.id===5 && <Link to={`/contact`}><p>{item.text}</p></Link>
+             }
+             {
+            item.id!=3 && item.id!=1 && item.id!=2 && item.id!=5 &&  <Link to={`/company`}><p>{item.text}</p></Link>
+          }
+            
           </li>
         ))}
       </ul>
