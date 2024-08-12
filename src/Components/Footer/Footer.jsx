@@ -34,14 +34,14 @@ export default function Footer() {
             </h6>
             <p className="mb-4">
               <Link to={`/cesarebonetti`}>
-              <a href="#" className="text-neutral-200">
+              <div className="text-neutral-200">
                 Cesare Bonetti
-              </a>
+              </div>
               </Link>
             </p>
             <p className="mb-4">
             <Link to={`/envita`}>
-              <a href="#" className="text-neutral-200">Envita</a>
+              <div className="text-neutral-200">Envita</div>
               </Link> </p>
           </div>
 

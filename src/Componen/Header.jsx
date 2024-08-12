@@ -32,7 +32,7 @@ function Header() {
                 electronics. We also provide various specialized Engineering
                 services pertinent to Oil and gas, petrochemical and other types
                 of process industries. We also supply manpower and our budding
-                business vertical is Controlled Environment Agriculture
+                business vertical is Controlled Environment Agriculture.
               </motion.div>
               
               {/* <div>
