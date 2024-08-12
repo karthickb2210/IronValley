@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./iv.jpg";
 import sixyear from "./sixyear.png"
+import agile from "./agile.png"
 import Header from "../../Componen/Header";
 function HeadLine() {
   return (
@@ -46,7 +47,7 @@ STARTUP</span>
           <div class="">
             <div class="group-hover:scale-110 w-full h-60 bg-current bg-black duration-500">
               <img
-                src="https://www.ivsourcing.com/images/AGILE%20E%20AND%20P.jpeg"
+                src={agile}
                 alt="image"
               />
             </div>
