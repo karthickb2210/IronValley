@@ -34,7 +34,7 @@ const handleMouseLeave = () => {
   ];
 
   return (
-    <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  className='bg-black  bg-transparent flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+    <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  className='bg-black relative bg-transparent flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 z-30 text-white'>
       {/* Logo */}
       <img src={logo} className="ml-12 h-10" />
 
@@ -77,7 +77,8 @@ const handleMouseLeave = () => {
       )}
     </div>
             
-          }{
+          }
+          {
             item.id===3 && <Link to={`/services`}><p>{item.text}</p></Link>
              }
              {
@@ -115,8 +116,38 @@ const handleMouseLeave = () => {
         {navItems.map(item => (
           <li
             key={item.id}
-            className='p-4 border-b rounded-xl hover:bg-[#00df9a] duration-300 hover:text-black cursor-pointer border-gray-600'
+            className='p-4 border-b rounded-xl  duration-300 hover:border-gray-600 cursor-pointer border-gray-600'
           >
+          { 
+            item.id===2 &&  
+            <div className="relative inline-block text-left" onMouseEnter={handleMouseEnter} >
+      <div className="flex items-center cursor-pointer">
+        <span>{item.text}</span>
+        <svg
+          className={`w-5 h-5 ml-2 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+        </svg>
+      </div>
+      {isOpen && (
+        <div className=" right-0 mt-2 w-48 rounded-md shadow-lg bg-black ring-1 ring-black ring-opacity-5" onMouseLeave={handleMouseLeave}>
+          <div className="py-1">
+          <Link to={`/envita`}>
+            <a href="#" className="block menu px-6 py-2 text-sm text-gray-100 ">Envita</a>
+            </Link>
+            <Link to={`/cesarebonetti`}>
+            <a href="#" className="block menu px-6 py-2 text-sm text-gray-100  ">Cesare bonetti</a>
+            </Link>
+          </div>
+        </div>
+      )}
+    </div>
+            
+          }
           {
             item.id===1 && <Link to={`/`}><p>{item.text}</p></Link>
           }
