@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid-1 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           {/* <!-- TW Elements section --> */}
           <div className="">
-            <h6 className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
+            <h6 className=" flex items-center justify-center font-semibold uppercase md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

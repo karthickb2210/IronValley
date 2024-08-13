@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Testienvita() {
   return (
     <div>
-      <section className=" relative text-gray-800 h-[100vh] mb-44">
+      <section className=" relative  text-gray-800 ">
         <div className="container px-6 py-12 mx-auto">
           <div className="grid items-center gap-4 xl:grid-cols-5">
             <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 md:text-left">
@@ -101,7 +101,7 @@ function Testienvita() {
                       </div>
                     </div>
                   </div>
-                  <div className="p-6 rounded shadow-md bg-gray-50 ">
+                  <div className="p-6 sm:mb-36 rounded shadow-md bg-gray-50 ">
                     <p>
                       …I run a car mechanic workshop and I use fully synthetic
                       engine oils for all the customers vehicles. I know the
