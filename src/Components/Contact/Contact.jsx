@@ -3,13 +3,16 @@ import Letter from './Letter'
 import Navbar from '../../Componen/Navbar'
 import Footer from '../Footer/Footer'
 import Contactform from './Contactform'
+import Career from './Carrer'
 
 function Contact() {
   return (
     <div>
     <Navbar />
       {/* <Letter /> */}
+      <Career />
       <Contactform />
+      
       <Footer />
     </div>
   )
