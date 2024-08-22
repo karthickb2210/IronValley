@@ -36,8 +36,9 @@ const handleMouseLeave = () => {
   return (
     <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  className='bg-black relative bg-transparent flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 z-30 text-white'>
       {/* Logo */}
+      <Link to={`/`}>
       <img src={logo} className="ml-12 h-10" />
-
+</Link>
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
         {navItems.map(item => (
