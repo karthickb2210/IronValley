@@ -5,14 +5,16 @@ import Footer from '../Footer/Footer'
 import Whoarewe from './Whoarewe'
 import Whychooseus from './Whychooseus'
 import Brands from './Brands'
+import Download from './Download'
 
 
 function CompanyPage() {
   return (
     <div>
       <Navbar />
-      
+     
       <Whoarewe />
+      <Download />
       <Whychooseus />
       <Brands />
       <Company />
