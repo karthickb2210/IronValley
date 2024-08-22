@@ -9,7 +9,7 @@ const DownloadButton = () => {
   };
  
   return (
-    <div className="flex bg-zinc-600 bg-opacity-50 justify-center py-8 px-8 rounded-2xl space-x-32 items-center  mx-14  mt-8 relative">
+    <div className="flex bg-zinc-600 bg-opacity-50 justify-between py-8 px-8 rounded-2xl  items-center  mx-14  mt-8 relative">
     <div className=' text-white text-2xl'>Download Our Brochure</div>
       <button
         onClick={handleDownload}
