@@ -6,10 +6,12 @@ import Whoarewe from './Whoarewe'
 import Whychooseus from './Whychooseus'
 import Brands from './Brands'
 
+
 function CompanyPage() {
   return (
     <div>
       <Navbar />
+      
       <Whoarewe />
       <Whychooseus />
       <Brands />
