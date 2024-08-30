@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import logo from "../assets/logo iv.png";
+import logo from "../assets/nobglogo.png";
 import "./nav.css"
 import { Link } from 'react-router-dom';
 import {motion} from 'framer-motion'
@@ -37,7 +37,7 @@ const handleMouseLeave = () => {
     <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  className='bg-black relative bg-transparent flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 z-30 text-white'>
       {/* Logo */}
       <Link to={`/`}>
-      <img src={logo} className="ml-12 h-10" />
+      <img src={logo} className="ml-12 max-w-[390px] max-h-[56px]" />
 </Link>
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
