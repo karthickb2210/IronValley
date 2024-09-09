@@ -2,7 +2,7 @@ import React from "react";
 
 function Comparison() {
   return (
-    <div className="h-[100vh] relative mx-4 my-24 md:mx-8 lg:mx-12">
+    <div className=" relative mx-4 my-24 md:mx-8 lg:mx-12">
       <div
         
       >

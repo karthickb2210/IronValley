@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import logo from "../assets/nobglogo.png";
+import logo from "../assets/logo.png";
 import "./nav.css"
 import { Link } from 'react-router-dom';
 import {motion} from 'framer-motion'

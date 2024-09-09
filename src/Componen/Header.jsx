@@ -17,7 +17,7 @@ function Header() {
             {/* Text */}
             <div className="mx-8 my-12">
               <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="text-5xl ml-12 font-bold flex items-center ">
-                Iron Valley Solutions LLP
+                IronValley Solutions LLP
               </motion.div>
               <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}} className="text-md max-w-[800px] my-8 ml-12 text-justify">
                 We are a 6-year-old Startup recognized by DPIIT (Department for

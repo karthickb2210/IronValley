@@ -61,7 +61,7 @@ export default function ProcurementServices() {
         </p>
       </div>
       <div className="text-center">
-        <h2 className="text-4xl font-bold mb-12">Brands We Have Served</h2>
+        <h2 className="text-4xl font-bold mb-12">Brands We Have Dealt</h2>
         <div className=" grid lg:grid-cols-8 xl:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 items-center gap-10">
         
           <img  src={baumer} alt="1" className="rounded-xl max-w-30 max-h-30 object-cover  transition-transform duration-300 hover:scale-110 bg-white "/>

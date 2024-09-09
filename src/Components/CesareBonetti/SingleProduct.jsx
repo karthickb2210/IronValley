@@ -10,10 +10,10 @@ function SingleProduct({prop}) {
               width="320"
               height="300"
               alt=" random imgee"
-              class=" relative object-center transition hover:scale-105 hover:-translate-y-12 duration-900 rounded-lg shadow-md"
+              class=" relative object-center transition hover:scale-105 hover:-translate-y-8 duration-900 rounded-lg shadow-md"
             />
 
-            <div class="relative px-4 -mt-16   ">
+            <div class="relative px-4 -mt-4">
               <div class=" bg-neutral-300  p-6 rounded-lg shadow-lg ">
                 <div class=" flex items-baseline">
                   <span  viewport={{once:false,amount:0.7}}  class="bg-green-600 text-white text-xs px-2 py-1 inline-block rounded-full  uppercase font-semibold tracking-wide">

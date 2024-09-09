@@ -2,8 +2,10 @@ import React from "react";
 import envitalogo from "./envit.jpg";
 import { motion } from "framer-motion";
 import { fadeIn } from "./variants";
+import flag from "./flag.png"
 function Product() {
   return (
+    <>
     <section class="flex flex-col justify-center antialiased bg-black text-gray-200 min-h-screen">
       <div class="max-w-6xl mx-auto p-4 sm:px-6 h-full">
         <article class="max-w-sm mx-auto md:max-w-none grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12 xl:gap-16 items-center">
@@ -14,7 +16,7 @@ function Product() {
             ></div>
             <figure class="relative h-0 pb-[56.25%] md:pb-[75%] overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
               <img
-                class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
+                class="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out "
                 src={envitalogo}
                 width="540"
                 height="303"
@@ -73,7 +75,14 @@ function Product() {
           </motion.div>
         </article>
       </div>
+     
     </section>
+    <div className="flex flex-col text-white justify-center items-center mb-[200px]">
+      <img src={flag} className=" max-h-[400px] max-w-[800px]" alt="indian flag" />
+      {/* <div className=" text-3xl">Indian and korean Collaboration</div> */}
+     
+      </div>
+      </>
   );
 }
 

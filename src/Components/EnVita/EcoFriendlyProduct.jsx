@@ -1,8 +1,9 @@
 import React from "react";
-import krc from "./krc.png"
+import krc from "./krc.png";
+import ecotree from "./ecotree.png";
 const EcoFriendlyProduct = () => {
   return (
-    <div className=" text-white p-8 rounded-lg shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300 ease-in-out xl:mx-32">
+    <div className=" text-white p-8 rounded-lg shadow-lg flex flex-col items-center hover:shadow-xl transition-shadow duration-300 ease-in-out xl:mx-28">
       <h2 className="text-3xl font-bold mb-4 text-center hover:text-green-600 transition-colors duration-300">
         Eco-Friendly Engine Oil Additive
       </h2>
@@ -20,24 +21,34 @@ const EcoFriendlyProduct = () => {
             className="h-16 w-16  object-fill"
           />
         </div>
-        <ul className="text-center text-md mb-6 space-y-2">
-          <li className="hover:text-green-600 transition-colors duration-300">
-            🌱 Reduces harmful emissions by up to 30%
-          </li>
-          <li className="hover:text-green-600 transition-colors duration-300">
-            🚗 Enhances engine efficiency and longevity
-          </li>
-          <li className="hover:text-green-600 transition-colors duration-300">
-            🌍 Biodegradable and environmentally friendly formula
-          </li>
-          <li className="hover:text-green-600 transition-colors duration-300">
-            💧 Improves fuel economy by optimizing combustion
-          </li>
-          <li className="hover:text-green-600 transition-colors duration-300">
-            🛡️ Protects engine parts, reducing wear and tear
-          </li>
-        </ul>
-        
+
+        <div className="grid grid-cols-3 relative gap-6">
+          <div className=" bg-transparent mb-12">
+            <img src={ecotree} alt="Tree" />
+          </div>
+          <div>
+            <ul className="text-center text-md mb-6 space-y-2">
+              <li className="hover:text-green-600 transition-colors duration-300">
+                🌱 Reduces harmful emissions by up to 30%
+              </li>
+              <li className="hover:text-green-600 transition-colors duration-300">
+                🚗 Enhances engine efficiency and longevity
+              </li>
+              <li className="hover:text-green-600 transition-colors duration-300">
+                🌍 Biodegradable and environmentally friendly formula
+              </li>
+              <li className="hover:text-green-600 transition-colors duration-300">
+                💧 Improves fuel economy by optimizing combustion
+              </li>
+              <li className="hover:text-green-600 transition-colors duration-300">
+                🛡️ Protects engine parts, reducing wear and tear
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img src={ecotree} />
+          </div>
+        </div>
       </div>
 
       <div className="w-full text-white  p-4 rounded-lg mt-8">
@@ -45,9 +56,10 @@ const EcoFriendlyProduct = () => {
           Korean Register ( KR ) Certification
         </h3>
         <p className="text-lg text-center mb-4">
-          The Korean Register (KR) is a not-for-profit classifiction society founded in south korea 
-          offering verification and certification for ships and marine structures in terms of design 
-          ,construction and maintenance.  
+          The Korean Register (KR) is a not-for-profit classifiction society
+          founded in south korea offering verification and certification for
+          ships and marine structures in terms of design ,construction and
+          maintenance.
         </p>
         <div className="flex justify-center">
           <img
