@@ -6,9 +6,12 @@ export default function Footer() {
     <footer className="text-center bg-black bg-opacity-30 text-neutral-200 lg:text-left relative">
       {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
       <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid-1 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid-1 grid gap-12 md:grid-cols-2">
+
+        {/* add lg:grid-cols-4 */}
+
           {/* <!-- TW Elements section --> */}
-          <div className="">
+          {/* <div className="">
             <h6 className=" flex items-center justify-center font-semibold uppercase md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +32,7 @@ export default function Footer() {
             </p>
           </div>
           {/* <!-- Products section --> */}
-          <div className="">
+          {/* <div className="">
             <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Products
             </h6>
@@ -44,7 +47,7 @@ export default function Footer() {
             <Link to={`/envita`}>
               <div className="text-neutral-200">Envita</div>
               </Link> </p>
-          </div>
+          </div>  */}
 
           <div className=" flex justify-center items-center">
             <div>

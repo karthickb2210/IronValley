@@ -34,10 +34,10 @@ const handleMouseLeave = () => {
   ];
 
   return (
-    <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  className='bg-black relative bg-transparent flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 z-30 text-white'>
+    <motion.div variants={fadeIn('right',0.2)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  className='bg-black xl:ml-16 ml-12 relative bg-transparent flex justify-between items-center h-24 max-w-[1240px]  px-4 z-30 text-white'>
       {/* Logo */}
       <Link to={`/`}>
-      <img src={logo} className="ml-12 max-w-[390px] max-h-[56px]" />
+      <img src={logo} className="max-w-[390px] max-h-[56px]" />
 </Link>
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
