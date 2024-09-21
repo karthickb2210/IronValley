@@ -16,9 +16,9 @@ function SingleProduct({prop}) {
             <div class="relative px-4 -mt-4">
               <div class=" bg-neutral-300  p-6 rounded-lg shadow-lg ">
                 <div class=" flex items-baseline">
-                  <span  viewport={{once:false,amount:0.7}}  class="bg-green-600 text-white text-xs px-2 py-1 inline-block rounded-full  uppercase font-semibold tracking-wide">
+                  {/* <span  viewport={{once:false,amount:0.7}}  class="bg-green-600 text-white text-xs px-2 py-1 inline-block rounded-full  uppercase font-semibold tracking-wide">
                     In Stock
-                  </span>
+                  </span> */}
                   <motion.div variants={fadeIn('right',0.1)} initial="hidden" whileInView={'show'} viewport={{once:false,amount:0.7}}  class="ml-2 text-white rounded-md px-1 font-bold uppercase text-xs bg-black tracking-wider">
                     {prop.code}
                   </motion.div>

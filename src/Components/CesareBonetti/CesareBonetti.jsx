@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer'
 import Valves from './Valves'
 import Herosection from './Herosection'
 import Aboutsection from './Aboutsection'
+import StockTable from './StockTable'
 
 function CesareBonetti() {
   return (
@@ -11,6 +12,7 @@ function CesareBonetti() {
         <Navbar />
         <Herosection />
         <Aboutsection />
+        <StockTable />
         <Valves />
         <Footer />
     </div>

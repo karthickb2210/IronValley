@@ -30,11 +30,10 @@ export default function Whoarewe() {
                 <ul className=" list-image-none space-y-2">
                   <li>
                     <p class="leading-relaxed text-base text-justify">
-                      Our mission is to serve, support, and collaborate with our
-                      customers and each other so we can deliver innovative,
-                      timely, and accurate solutions that create value and
-                      streamline processes in support of company goals and
-                      initiatives.
+                    Our vision is to be a trusted partner who delivers outstanding
+                  customer service, fosters collaborative relationships, and
+                  provides significant value to be recognized as procurement
+                  experts and leaders
                     </p>
                   </li>
                   {/* <li>
@@ -69,10 +68,12 @@ export default function Whoarewe() {
                    Mission
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Our vision is to be a trusted partner who delivers outstanding
-                  customer service, fosters collaborative relationships, and
-                  provides significant value to be recognized as procurement
-                  experts and leaders
+                Our mission is to serve, support, and collaborate with our
+                      customers and each other so we can deliver innovative,
+                      timely, and accurate solutions that create value and
+                      streamline processes in support of company goals and
+                      initiatives.
+                 
                   {/* <br/>We also provide various specialized Engineering services pertinent to Oil and gas, petrochemical and other types of process industries. */}
                 </p>
                 {/* <a class="mt-3 text-indigo-400 inline-flex items-center">Learn More

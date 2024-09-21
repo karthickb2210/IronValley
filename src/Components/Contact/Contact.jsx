@@ -10,8 +10,9 @@ function Contact() {
     <div>
     <Navbar />
       {/* <Letter /> */}
-      <Career />
+      
       <Contactform />
+      <Career />
       
       <Footer />
     </div>
