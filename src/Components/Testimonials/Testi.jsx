@@ -67,7 +67,7 @@ function Testi() {
                       className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Quatalum</p>
+                      <p className="text-lg font-semibold">Qatalum</p>
                       <p className="text-sm text-gray-600"></p>
                     </div>
                   </div>
