@@ -155,7 +155,7 @@ export default function Footer() {
 
       {/* <!--Copyright section--> */}
       <div className="p-3x text-center bg-neutral-700">
-        <span>© 2024 Copyright : </span>
+        <span>© {new Date().getFullYear()} Copyright : </span>
         <a
           className=" text-center bg-neutral-700"
           href="https://www.ivsourcing.com"
